@@ -1,0 +1,169 @@
+body{
+	padding:0;  /* убрали отступы внутри bэл-та (сверху справа снизу слева)*/
+	margin:0;   /* убрали отступы снаружи эл-та */
+	font-family: Arial, sans-serif/* Если не найдется ариал, то найдется любой другой шрифт без засечек*/;
+    color: #222222; 
+}
+
+header{
+    background: url(imggg/first-bg1.jpg) no-repeat /* чтобы не ыло повторений по горизонтали*/ center top /cover/* Чтобы на весь экран было*/;
+	padding-bottom: 160px; /*Отступ внутрь снизу */
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo{
+	margin-top: 41px;
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 45px;
+}
+
+.menu{
+	padding:0;
+	margin:0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+	font-size: 14px; /*Размер каждого пункта*/
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+	
+.titles_first{
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center; /*Чтобы текст был по центру*/
+	margin-top: 180px; /*Расс-е от Heading*/
+}
+h1{
+	color: white;
+	margin: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 75px	
+}
+.button{
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold; /*жирный*/
+	font-size: 18px;
+	margin-top: 50px;
+	
+}
+.title{
+	padding-top:115px;
+}
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin:0;
+}
+.title p{
+	color: #777777;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 16px;	
+}
+
+.services{
+	margin-top: 80px;
+}
+.services_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.services_item h3{
+	font-size:18px;
+	margin-bottom: 5px;
+	
+}
+
+.services_item p{
+	color: #777777;
+	font-size:14px;	
+	line-height: 1.55em;
+}
+
+.services_item:last-child{
+	float: right;
+}
+.services_item:nth-child(2){
+	margin-left: 60px;
+}
+#portfolio{
+	background: #f7f7f7;
+}
+#services{
+	padding-bottom: 120px;
+}
+.works{
+	margin-top: 70px;	/* Расст от картинок до аур воркс */
+	padding-bottom: 120px;
+}
+.works img{
+	float: left;
+}
+
+.works img:nth-child(2){
+	margin-left:29px;
+}
+.works img:last-child{
+	float: right;
+}
+
+.service_item h3{
+	font-size:18px;
+	margin-bottom: 5px;
+	width: 270px;
+	
+}
+
+.service_item p{
+	color: #777777;
+	font-size:14px;	
+	line-height: 1.55em;
+	width: 270px;
+}
+
+.About{
+	text-align: center;
+	 padding-top:12px;
+}
+
